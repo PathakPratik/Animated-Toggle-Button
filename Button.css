@@ -1,0 +1,42 @@
+#toggleBtn {
+  position: fixed;
+  font-weight: 900;
+  z-index: 9999;
+  top: 65px;
+  right: 35px;
+  background-color: rgb(25, 153, 227);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  height: 35px !important;
+  width: 185px;
+  transition: font-size 0.7s ease-in-out, width 0.5s ease-in-out, padding-right 0.5s ease-in-out, padding-left 0.5s ease-in-out;
+}
+
+#control {
+  position: fixed;
+  z-index: 9999;
+  top: 65px;
+  right: 5px;
+  background-color: rgb(25, 153, 227);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 6px 7px;
+  color: white;
+  border-left: 1px solid blue;
+  font-size: 20px;
+}
+
+.closedBtn {
+  padding-right: 0px !important;
+  width: 0% !important;
+  height: 35px !important;
+  padding-left: 0px !important;
+  font-size: 0px !important;
+}
