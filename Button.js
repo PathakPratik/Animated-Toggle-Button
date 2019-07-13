@@ -1,7 +1,7 @@
-var toggleBtn = document.getElementById('toggleBtn');
-var openCloseBtn = document.getElementById('open-close');
-
 document.addEventListener("DOMContentLoaded", function(){
+  
+  var toggleBtn = document.getElementById('toggleBtn');
+  var openCloseBtn = document.getElementById('open-close');
   
   document.getElementById("control").addEventListener("click", function(e) {
 
